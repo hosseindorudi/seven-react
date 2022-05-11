@@ -1,0 +1,1 @@
+import { idCode } from "./validation";
