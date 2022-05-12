@@ -1,0 +1,214 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%;
+    height: 100%; */
+    width: 100%;
+    height: 100vh;
+}
+
+.rightForm {
+    flex : 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+   
+}
+
+.DateAdnTime {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-inline-start: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.DateTimeLabel {
+    margin-bottom: 3px;
+}
+
+#DateTime {
+    margin-top: 5px;
+    border:none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#DateTime:focus {
+    border: none;
+    outline: none;
+}
+
+.ReceiptNumber {
+    margin-inline-start: 40px;
+    margin-top: 15px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+
+    
+    
+}
+
+#recievtionID {
+    margin: 3px auto;
+    
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    
+}
+
+#recievtionID:focus {
+    border: none;
+    outline: none;
+}
+
+.personInformation {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    margin-inline-start: 40px;
+    border: none;
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 5px;
+
+    
+}
+
+#nameLastNameINFO {
+    padding: 10px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+
+}
+
+#nameLastNameINFO:focus {
+    outline: none;
+}
+
+#phoneNumber {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+#phoneNumber:focus {
+    outline: none;
+}
+
+#state {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+#state:focus {
+    outline: none;
+}
+
+#city {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+#city:focus {
+    outline: none;
+}
+
+#address {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    resize: none;
+    overflow: hidden;
+    height: 80px;
+}
+
+#address:focus {
+    outline: none;
+}
+
+.deviceFaildAndPicture {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 110px;
+    margin-inline-start: 40px;
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+#deviceFailedDescription {
+    height: 95px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    resize: none;
+    overflow: hidden;
+}
+
+#deviceFailedDescription:focus {
+    outline: none;
+}
+
+.failedBTNParent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 25px;
+    border: none;
+}
+
+.failedBTN {
+    background-color: transparent;
+    color:rgb(255, 68, 68);
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+    font-size: 16px;
+
+}
+
+.failedBTN:focus {
+    outline: none;
+}
+
+.failedBTNParent > span {
+    font-size: 10px;
+    
+    
+}
+
+.middleForm {
+    flex: 0.4;
+    height: 100%;
+    background-color: rgb(145, 243, 145);
+}
+
+.leftForm {
+    flex: 0.3;
+    height: 100%;
+    background-color: rgb(250, 170, 243);
+}
